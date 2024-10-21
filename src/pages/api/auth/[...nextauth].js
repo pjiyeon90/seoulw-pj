@@ -1,7 +1,15 @@
+import NextAuth from "next-auth";
+import GithubProvider from "next-auth/providers/github";
+import GoogleProvider from "next-auth/providers/google";
+import NaverProvider from "next-auth/providers/naver";
+import CredentialsProvider from "next-auth/providers/credentials";
+import { addDoc, collection, getDocs, query } from "firebase/firestore";
+import db from "@/lib/firebase";
+import { where } from "firebase/firestore";
 
 export const authOptions = {
   // Configure one or more authentication providers
-  secret: process.env.NEXT_PUBLIC_NEXTAUTH_ID,
+  secret: "abcdefg2345",
   providers: [
     CredentialsProvider({
       async authorize(credentials, req) {
