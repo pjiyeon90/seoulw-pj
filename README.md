@@ -10,6 +10,7 @@
 
 KOPIS 공연예술전산망 API에서 제공하는 서울 문화 공연을 한 곳에서 쉽게 조회할 수 있는 모바일 웹 사이트
 
+![seoulw_sub (3)](https://github.com/user-attachments/assets/060e9daa-d00c-49b2-8adb-213097e32366)
 
 ### ⏱ 개발 기간
 2024.09.27(금) - 2024.10.16(수) (약 2주)
